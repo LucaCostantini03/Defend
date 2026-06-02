@@ -1,0 +1,20 @@
+{
+  "empresa": "Defend Motos",
+  "whatsapp": {
+    "display": "+54 9 11 4446-8569",
+    "numero": "5491144468569"
+  },
+  "instagram": {
+    "usuario": "@defend.motos",
+    "url": "https://www.instagram.com/defend.motos"
+  },
+  "direccion": {
+    "texto": "Paysandú 1629, C1425 CABA, Argentina",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Paysand%C3%BA%201629%2C%20C1425%20CABA%2C%20Argentina"
+  },
+  "horarios": {
+    "lunesAViernes": ["08:30 - 12:00", "13:00 - 17:00"],
+    "sabado": "Cerrado",
+    "domingo": "Cerrado"
+  }
+}

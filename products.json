@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "categoria": "Portaequipaje",
+    "nombre": "Portaequipaje reforzado",
+    "descripcion": "Ideal para uso diario o viajes. Fabricado en material resistente con terminación prolija.",
+    "imagen": "assets/producto-placeholder.svg",
+    "whatsappTexto": "Hola, quiero consultar por el portaequipaje reforzado"
+  },
+  {
+    "id": 2,
+    "categoria": "Defensa",
+    "nombre": "Defensa lateral",
+    "descripcion": "Protección funcional para la moto, pensada para mejorar seguridad y resistencia.",
+    "imagen": "assets/producto-placeholder.svg",
+    "whatsappTexto": "Hola, quiero consultar por la defensa lateral"
+  },
+  {
+    "id": 3,
+    "categoria": "Soporte",
+    "nombre": "Soporte para baúl",
+    "descripcion": "Base firme para instalación de baúl, adaptable a distintos modelos de moto.",
+    "imagen": "assets/producto-placeholder.svg",
+    "whatsappTexto": "Hola, quiero consultar por el soporte para baúl"
+  },
+  {
+    "id": 4,
+    "categoria": "Parrilla",
+    "nombre": "Parrilla trasera",
+    "descripcion": "Accesorio práctico para transportar elementos de manera segura y ordenada.",
+    "imagen": "assets/producto-placeholder.svg",
+    "whatsappTexto": "Hola, quiero consultar por la parrilla trasera"
+  },
+  {
+    "id": 5,
+    "categoria": "Alforjas",
+    "nombre": "Soporte para alforjas",
+    "descripcion": "Diseñado para mejorar la estabilidad y seguridad de las alforjas laterales.",
+    "imagen": "assets/producto-placeholder.svg",
+    "whatsappTexto": "Hola, quiero consultar por el soporte para alforjas"
+  },
+  {
+    "id": 6,
+    "categoria": "A medida",
+    "nombre": "Accesorio personalizado",
+    "descripcion": "Contanos qué necesitás y vemos la mejor solución para tu moto.",
+    "imagen": "assets/producto-placeholder.svg",
+    "whatsappTexto": "Hola, quiero hacer un accesorio personalizado para mi moto"
+  }
+]
