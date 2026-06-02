@@ -29,6 +29,6 @@ En Netlify:
 ## Datos actuales
 
 WhatsApp: +54 9 11 4446-8569  
-Instagram: @defend.motos  
+Instagram: @defend.moto  
 Dirección: Paysandú 1629, C1425 CABA, Argentina  
 Horarios: lunes a viernes 08:30 - 12:00 / 13:00 - 17:00. Sábado y domingo cerrado.
