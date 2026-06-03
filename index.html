@@ -477,7 +477,6 @@
       border-radius:34px;
       background:var(--card);
       border:1px solid var(--line);
-      margin-bottom:28px;
     }
     .contact-card h2{
       font-size:clamp(32px,4vw,52px);
@@ -497,16 +496,21 @@
     }
     .contact-item strong{display:block;color:var(--white);margin-bottom:4px}
 
-    .map-wrapper{
-      border-radius:34px;
+    .contact-map{
+      padding:0;
       overflow:hidden;
-      border:1px solid var(--line);
-      box-shadow:0 30px 80px rgba(0,0,0,.35);
+      grid-column:1/-1;
     }
-    .map-wrapper iframe{
+    .contact-map strong{
+      display:block;
+      color:var(--white);
+      margin-bottom:12px;
+      padding:17px 17px 0;
+    }
+    .contact-map iframe{
       display:block;
       width:100%;
-      height:480px;
+      height:220px;
       border:0;
     }
 
@@ -557,7 +561,7 @@
       .stats,.categories,.catalog-grid,.features{grid-template-columns:1fr}
       .section-head{flex-direction:column;align-items:start}
       .custom-box,.contact-card{padding:26px}
-      .map-wrapper iframe{height:320px}
+      .contact-map iframe{height:180px}
       h1{font-size:42px}
     }
   </style>
@@ -808,9 +812,14 @@
               <strong>Instagram</strong>
               <a href="https://www.instagram.com/defend.moto" target="_blank">@defend.moto</a>
             </div>
-            <div class="contact-item">
-              <strong>Dirección</strong>
-              <a href="https://www.google.com/maps/search/?api=1&query=Paysand%C3%BA%201629%2C%20C1425%20CABA%2C%20Argentina" target="_blank">Paysandú 1629, C1425 CABA, Argentina</a>
+            <div class="contact-item contact-map">
+              <strong>Ubicación</strong>
+              <iframe 
+                src="https://www.google.com/maps?q=Paysand%C3%BA+1629,+CABA,+Argentina&output=embed" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
             <div class="contact-item">
               <strong>Horarios</strong>
@@ -821,15 +830,6 @@
               Cerrado
             </div>
           </div>
-        </div>
-
-        <div class="map-wrapper">
-          <iframe 
-            src="https://www.google.com/maps?q=Paysand%C3%BA+1629,+CABA,+Argentina&output=embed" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
         </div>
       </div>
     </section>
